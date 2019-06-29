@@ -87,8 +87,8 @@
 			children = (
 				63C019CF1C58DF76001F4187 /* Assets.xcassets */,
 				7226F53E22C6D26A0060B78F /* Storyboards */,
-				7226F53D22C6D2510060B78F /* Supporting Files */,
 				7226F53C22C6D2490060B78F /* View Controllers */,
+				7226F53D22C6D2510060B78F /* Supporting Files */,
 				6385B12D1C68C76C00E57640 /* Sound Files */,
 			);
 			path = Xylophone;

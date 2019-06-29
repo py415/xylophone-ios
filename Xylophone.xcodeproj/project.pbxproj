@@ -86,38 +86,38 @@
 			isa = PBXGroup;
 			children = (
 				63C019CF1C58DF76001F4187 /* Assets.xcassets */,
-				7226F53E22C6D26A0060B78F /* Storyboards */,
-				7226F53C22C6D2490060B78F /* View Controllers */,
-				7226F53D22C6D2510060B78F /* Supporting Files */,
+				7226F54222C6F0A00060B78F /* Storyboards */,
+				7226F54022C6EF6B0060B78F /* View Controllers */,
+				7226F54122C6EF890060B78F /* Supporting Files */,
 				6385B12D1C68C76C00E57640 /* Sound Files */,
 			);
 			path = Xylophone;
 			sourceTree = "<group>";
 		};
-		7226F53C22C6D2490060B78F /* View Controllers */ = {
+		7226F54022C6EF6B0060B78F /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				63C019CA1C58DF76001F4187 /*  VIewController.swift */,
 			);
-			name = "View Controllers";
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
-		7226F53D22C6D2510060B78F /* Supporting Files */ = {
+		7226F54122C6EF890060B78F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				63C019C81C58DF76001F4187 /* AppDelegate.swift */,
 				63C019D41C58DF76001F4187 /* Info.plist */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		7226F53E22C6D26A0060B78F /* Storyboards */ = {
+		7226F54222C6F0A00060B78F /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
 				63C019CC1C58DF76001F4187 /* Main.storyboard */,
 				63C019D11C58DF76001F4187 /* LaunchScreen.storyboard */,
 			);
-			name = Storyboards;
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,7 +336,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8E7FB8SA95;
-				INFOPLIST_FILE = Xylophone/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Xylophone/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuphilip.Xylophone;
@@ -351,7 +351,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8E7FB8SA95;
-				INFOPLIST_FILE = Xylophone/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Xylophone/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuphilip.Xylophone;

@@ -13,8 +13,6 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     
     // Properties
     var audioPlayer: AVAudioPlayer!
-    let colorArray = ["red", "orange", "yellow", "green", "turqoise", "blue", "purple"]
-    let soundArray = ["C", "D", "E", "F", "G", "A", "B"]
     
     override func viewDidLoad() {
         
@@ -24,8 +22,8 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     
     @IBAction func notePressed(_ sender: UIButton) {
         
-        print("User pressed \(colorArray[sender.tag - 1]) (\(sender.tag - 1)) note.")
-        playSound(soundFileName: soundArray[sender.tag - 1])
+        print("User pressed \(sender.currentTitle!) (\(sender.tag)) note.")
+        playSound(soundFileName: sender.currentTitle!)
         
     }
     

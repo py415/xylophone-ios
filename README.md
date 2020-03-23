@@ -14,13 +14,13 @@ Xylophone is an app that replicates a real life xylophone. Clicking each of the 
 ## Product Spec
 ### User Stories
 
-- [X] User can click each bars to render xylophone sounds.
+- [X] User shall be able to click each bars to render xylophone notes.
 
 ## App Walkthrough
 
 Here's a GIF of how the app works:
 
-<img src="https://i.imgur.com/8HL56BW.gif" width=250><br>
+<img src="https://i.imgur.com/4BNVw5n.gif" width=250><br>
 
 ## Credits
 

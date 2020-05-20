@@ -11,8 +11,8 @@ import AVFoundation
 
 class ViewController: UIViewController, AVAudioPlayerDelegate {
     
-    // Properties
-    var audioPlayer: AVAudioPlayer!
+    // MARK: - Properties
+    private var audioPlayer: AVAudioPlayer!
     
     override func viewDidLoad() {
         
@@ -20,14 +20,19 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         
     }
     
+    // MARK: - IBAction Section
+    
     @IBAction func notePressed(_ sender: UIButton) {
         
         print("User pressed \(sender.currentTitle!) (\(sender.tag)) note.")
+        
         playSound(soundFileName: sender.currentTitle!)
         
     }
     
-    func playSound(soundFileName: String) {
+    // MARK: - Private Function Section
+    
+    private func playSound(soundFileName: String) {
         
         let soundURL = Bundle.main.url(forResource: soundFileName, withExtension: "wav")
         

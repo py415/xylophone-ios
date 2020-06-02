@@ -20,8 +20,8 @@ Xylophone is an app that replicates a real life xylophone. Clicking each of the 
 
 Here's a GIF of how the app works:
 
-<img src="https://user-images.githubusercontent.com/35745973/81484210-abe43c80-91f8-11ea-9ab0-b6d9fd7c5b1c.gif" width=250><br>
+<img src="https://user-images.githubusercontent.com/35745973/81484210-abe43c80-91f8-11ea-9ab0-b6d9fd7c5b1c.gif" width=250>
 
 ## Credits
 
->This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
+>This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/).

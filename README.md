@@ -20,7 +20,7 @@ Xylophone is an app that replicates a real life xylophone. Clicking each of the 
 
 Here's a GIF of how the app works:
 
-<img src="https://github.com/py415/app-resources/blob/master/ios/ios-xylophone.gif" width=250>
+<img src="https://raw.githubusercontent.com/py415/app-resources/master/ios/ios-xylophone.gif" width="250" />
 
 ## Credits
 
